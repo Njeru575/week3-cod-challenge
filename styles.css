@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .movies-menu {
+    width: 25%;
+  }
+  
+  .movie-details {
+    width: 70%;
+  }
+  
+  #films {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #films .film.item {
+    cursor: pointer;
+  }
+  
+  #films .sold-out {
+    color: red;
+    text-decoration: line-through;
+  }
+  
+  #movie-detail img {
+    width: 200px;
+    height: auto;
+  }
+  
+  button:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+  }
+  
